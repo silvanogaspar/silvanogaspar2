@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+body {
+  background-image: url('/home/windows/Downloads/images.jpg');
+  background-size: cover;
+}
+
+header {
+    background-color: #333;
+    padding: 1em;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 1em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+main {
+    padding: 2em;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 400px;
+    background-color: #444;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 0.8em;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #555;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #666;
+}
+
+footer {
+    background-color: #222;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
